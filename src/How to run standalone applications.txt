@@ -1,0 +1,26 @@
+0) Le fichier jar (java archive) qui contient le jeu s'appelle "Connect4.jar"
+
+1) Dans un moteur de recherche (exemple : google), taper : download jvm
+
+2) Dans les résultats de la recherche, cliquer sur le lien :
+
+Téléchargement gratuit du logiciel Java
+https://www.java.com › download
+
+cliquer sur : Téléchargement gratuit de java
+cliquer sur : Accepter et lancer le téléchargement gratuit
+
+3) Une fois le fichier "jre-8u221-windows-x64.exe" téléchargé, l'installer sur le pc
+(par défaut, l'emplacement est c:/programmes files/java)
+
+4) Ouvrir une console dos ("invite de commandes") et aller dans le répertoire : c:/programmes files/java/jre1.8.0_221\bin
+
+5) Avec l'explorateur de fichier, copier le fichier jar "Connect4.jar" dans le répertoire c:/programmes files/java/jre1.8.0_221\bin 
+
+6) Lancer le programme à partir de la console en tapant :
+
+Pour l'application graphique :
+java -cp Connect4.jar fr.evonarx.connect4.GameGraphical
+
+Pour l'application textuelle :
+java -cp Connect4.jar fr.evonarx.connect4.Game
